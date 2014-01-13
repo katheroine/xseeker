@@ -1,0 +1,233 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Average Sans', Verdana, Arial, sans-serif;
+}
+
+#application
+{
+	margin: auto;
+	width: 50%;
+	min-width: 356px;
+	background-color: #ffffff;
+}
+
+#header
+{
+	padding: 40px 0 5px 0;
+}
+
+#logo
+{
+	display: block;
+	width: 256px;
+	height: 61px;
+	margin: auto;
+	background-image: url('./xseeker_logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#menu
+{
+	padding: 10px 20px;
+	text-align: right;
+}
+
+#menu a
+{
+	display: inline-block;
+	margin: 0 2px;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+#menu a#xlab
+{
+	background-color: #aaaaaa;
+}
+
+#menu a#xlab:hover
+{
+	background-color: #f08800;
+}
+
+#menu a#xsolve
+{
+	background-color: #aaaaaa;
+}
+
+#menu a#xsolve:hover
+{
+	background-color: #ff4000;
+}
+
+#menu a#contact
+{
+	background-color: #33dde3;
+}
+
+#menu a#contact:hover
+{
+	background-color: #18acb1;
+}
+
+#welcome
+{
+	padding: 100px 0;
+	text-align: center;
+	color: #333333;
+}
+
+#welcome h1
+{
+	font-size: 30px;
+}
+
+#welcome p
+{
+	font-size: 20px;
+}
+
+#welcome a
+{
+	font-weight: bold;
+	color: inherit;
+	text-decoration: none;
+}
+
+#welcome a:hover
+{
+	color: #555555;
+}
+
+#input
+{
+	padding: 32px 20px;
+	background-image: url('./searcher_field.png');
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#input #searcher
+{
+	display: block;
+	width: 220px;
+	height: 20px;
+	margin: auto;
+	padding: 5px 45px 5px 15px;
+	border-width: 0;
+	border-radius: 15px;
+	background-color: #ffffff;
+	background-image: url('./loupe.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	font-size: 15px;
+	color: #555555;
+	outline: none;
+}
+
+#output
+{
+	padding: 20px 0;
+	min-height: 300px;
+}
+
+#output #entry_not_found
+{
+	padding: 30px 15px;
+	text-align: center;
+	font-size: 18px;
+	color: #444444;
+}
+
+#output .entry
+{
+	padding: 20px 15px;
+	color: #444444;
+}
+
+#output .entry h1
+{
+	font-size: 18px;
+}
+
+#output .entry h1 a
+{
+	text-decoration: none;
+	color: #444444;
+}
+
+#output .entry h1 a:hover
+{
+	color: #777777;
+}
+
+#output .entry h2
+{
+	text-align: right;
+	font-size: 12px;
+	font-weight: normal;
+	color: #888888;
+}
+
+#output .entry p
+{
+	padding: 5px 0;
+	font-size: 14px;
+}
+
+#footer
+{
+	padding: 10px 20px;
+	border-top: solid #cccccc 2px;
+	text-align: center;
+	font-size: 14px;
+	color: #aaaaaa;
+}
+
+#footer a
+{
+	text-decoration: none;
+	color: #aaaaaa;
+}
+
+#footer a:hover
+{
+	color: #777777;
+}
+
+#not_found_message
+{
+	margin: 150px 0;
+	text-align: center;
+}
+
+#not_found_message #code_404
+{
+	padding: 32px 20px;
+	background-image: url('./searcher_field.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 60px;
+	color: #ffffff;
+}
+
+#not_found_message #comment
+{
+	padding: 10px 0;
+	font-size: 30px;
+	color: #ff4000;
+}
+
+.keyword
+{
+	padding: 1px 2px;
+	background-color: #ff4000;
+	font-weight: bold;
+	color: #ffffff;
+}
