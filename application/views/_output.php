@@ -1,5 +1,5 @@
 <div id="output">
-<?php if(!empty($entry_items)) { ?>
+<?php if(count($entry_items) != 0) { ?>
 	<?php foreach($entry_items as $key => $entry_item) { ?>
 		<div class="entry">
 			<h1><a href="<?= $entry_item->link ?>"> <?= $entry_item->title ?> </a></h1>
