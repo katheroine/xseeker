@@ -18,7 +18,7 @@
 		<div id="menu">
 			<a id="xlab" href="http://xlab.pl/">XLab</a>
 			<a id="xsolve" href="http://www.xsolve.pl/">XSolve</a>
-			<a id="contact" href="mailto:katarzyna.krasinska@onet.pl">Kontakt</a>
+			<a id="contact" href="mailto:katarzyna.krasinska@onet.pl">Contact</a>
 		</div>
 		<?php include( __DIR__ . '/' . $view . '.php') ?>
 		<div id="footer">
