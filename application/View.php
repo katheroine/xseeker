@@ -27,18 +27,6 @@ class View
 	 */
 	private $view_parameters = array();
 	
-	/*
-	public function __construct()
-	{
-		$this->initializeViewParameters();
-	}
-	
-	private function initializeViewParameters()
-	{
-		$this->view_parameters = array();
-	}
-	 */
-
 	public function __set($name, $value)
 	{
 		$this->view_parameters[$name] = $value;
